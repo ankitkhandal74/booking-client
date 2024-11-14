@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Header from '@/components/Header';
 
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:5000";
+const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "https://fantastic-delores-akmmm-bb442023.koyeb.app";
 
 export default function Booking() {
     const router = useRouter();
