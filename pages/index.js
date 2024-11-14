@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import SearchTheatres from "@/components/SearchTheatres";
 
-const SERVER_URL = process.env.SERVER_URL || "http://localhost:5000";
+const SERVER_URL = process.env.SERVER_URL || "https://fantastic-delores-akmmm-bb442023.koyeb.app";
 
 export default function Home() {
     const router = useRouter();
