@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from 'next/router';
 
-const SERVER_URL = process.env.NEXT_PUBLIC_MONGO_URI || "http://localhost:5000";
+const SERVER_URL = process.env.SERVER_URL || "https://fantastic-delores-akmmm-bb442023.koyeb.app";
 
 export default function Dashboard() {
     const router = useRouter();
